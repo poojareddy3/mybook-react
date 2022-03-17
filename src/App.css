@@ -28,6 +28,55 @@
   color: #61dafb;
 }
 
+#Header{
+  display: flex;
+  background-color: orange;
+  /* justify-content:space-between; */
+  margin-right: 5px;
+  margin-bottom: 30px;
+  color: rgb(212, 76, 178);
+}
+
+.appname{
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 975px;
+}
+.nav{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.bookDiv{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-style:solid;
+  border-width: 10px;
+  border-color: orange;
+  background-color: orange;
+  color: rgb(212, 76, 178);
+  flex-wrap: nowrap;
+  width: 30%;
+  align-items: center;
+  margin-left: 500px; 
+  margin-bottom: 25px;
+  justify-content: center;
+ }
+
+ .desc{
+   display: flex;
+   margin:20px 20px 20px 20px;
+   font-weight: 500;
+ }
+
+ .footer{
+   display: flex;
+   height: 40px;
+   background-color: orange;
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
